@@ -1,6 +1,6 @@
 language: ruby
 bundler_args: --without development
-script: "bundle exec rake spec:system
+script: "bundle exec rake spec:system"
 rvm:
   - 1.8.7
   - 1.9.3
