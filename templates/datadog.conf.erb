@@ -1,7 +1,7 @@
 [Main]
 
 # The host of the Datadog intake server to send Agent data to
-dd_url: <%= dd_url %>
+dd_url: <%= @dd_url %>
 
 # If you need a proxy to connect to the Internet, provide the settings here
 # proxy_host: my-proxy.com
@@ -12,10 +12,10 @@ dd_url: <%= dd_url %>
 # The Datadog api key to associate your Agent's data with your organization.
 # Can be found here:
 # https://app.datadoghq.com/account/settings
-api_key: <%= api_key %>
+api_key: <%= @api_key %>
 
 # Force the hostname to whatever you want.
-hostname: <%= fqdn %>
+hostname: <%= @fqdn %>
 
 # Set the host's tags
 #tags: mytag0, mytag1
